@@ -4,6 +4,7 @@ public class MathOperation {
 
     public static void main(String[] args) {
         //use case 1
+        //way 1 ---IMathFunction add = ( int a, int b)->a+b;
         IMathFunction add = Integer::sum;
         //multiply
         IMathFunction multiply = ( int a, int b) -> a*b;
